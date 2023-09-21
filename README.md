@@ -63,3 +63,4 @@ test_data['eid_mean'] = test_data['eid'].map(train_data.groupby('eid')['target']
 ## 4.模型迭代
 
 这部分需要在原有Baseline基础上做更多优化，可以从特征工程与模型中来思考。
+
